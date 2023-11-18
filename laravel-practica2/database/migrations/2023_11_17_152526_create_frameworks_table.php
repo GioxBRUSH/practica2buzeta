@@ -14,7 +14,7 @@ return new class extends Migration
         Schema::create('frameworks', function (Blueprint $table) {
             $table->id();
             $table->string('frameworkName');
-            $table->string('level');
+            $table->integer('level');
             $table->foreignId('profile_id');
             $table->timestamps();
         });

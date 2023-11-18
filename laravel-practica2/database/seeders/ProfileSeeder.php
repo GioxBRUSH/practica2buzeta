@@ -23,6 +23,8 @@ class ProfileSeeder extends Seeder
             'career' => 'Ingenieria Civil en computación e informatica',
             'description' => 'amante de los videojuegos y el deporte, me interesa el área del desarrollo web, sin embargo todavía estoy aprendiendo así que te pido paciencia :D, actualmente en sexto semestre de la carrera.',
             'image' => 'https://i.pinimg.com/originals/0a/0b/0a/0a0b0a0a0a0a0a0a0a0a0a0a0a0a0a0.jpg',
+            'facebook' => 'https://www.facebook.com/profile.php?id=100000841668343',
+            'instagram' => 'https://www.instagram.com/buzeta_16x/'
            
         ]);
     }

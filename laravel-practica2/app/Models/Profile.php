@@ -23,7 +23,9 @@ class Profile extends Model
         'identification',
         'career',
         'description',
-        'image'
+        'image',
+        'facebook',
+        'instagram'
     ];
  
 

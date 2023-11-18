@@ -20,6 +20,8 @@ return new class extends Migration
             $table->string('career');
             $table->string('description');
             $table->string('image');
+            $table->string('facebook');
+            $table->string('instagram');
             $table->timestamps();
         });
     }
